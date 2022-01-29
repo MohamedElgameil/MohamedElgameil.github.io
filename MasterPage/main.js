@@ -1,6 +1,6 @@
 
 var button = document.querySelector("#btn");
 
-button.addEventListener('click', function(){
+function writeInParagraph(){
     document.querySelector('p').innerHTML = "button is Clicked";
-});
+}
